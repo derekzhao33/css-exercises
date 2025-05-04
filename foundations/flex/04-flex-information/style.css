@@ -11,17 +11,23 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;
+}
+
+.info-items {
+  gap: 32px;
 }
 
 .info-items,
 .plant {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .plant {
-  flex: 1 1 auto;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
 }
 
 /* do not edit this footer */
